@@ -6,6 +6,8 @@
 	"bin": {
 		"carpeg": "cli.js"
 	},
+	"repository": "github:Echorial/carpeg-cli",
+	"homepage": "https://github.com/Echorial/carpeg-cli/",
 	"keywords": [
 		"peg",
 		"carbon"
