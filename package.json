@@ -1,0 +1,18 @@
+{
+	"name": "carpeg-cli",
+	"version": "1.0.0",
+	"description": "Carpeg generator interface",
+	"main": "cli.js",
+	"bin": {
+		"carpeg": "cli.js"
+	},
+	"keywords": [
+		"peg",
+		"carbon"
+	],
+	"author": "Echorial",
+	"license": "MIT",
+	"dependencies": {
+		"commander": "^2.15.1"
+	}
+}
