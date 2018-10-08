@@ -1,7 +1,15 @@
 #!/usr/bin/env node
 const fs = require("fs");
 const program = require('commander');
-const Carpeg = require('./bin/carpeg.js');
+
+let Carpeg;
+
+try {
+	Carpeg = require('carpeg');
+}catch (e) {
+	Carpeg = require("./bin/carpeg.js");
+}
+
 const path = require("path");
 const { exec } = require('child_process');
 
